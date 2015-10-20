@@ -42,6 +42,7 @@ def game_choice():
 		hang.main()
 	# rock paper scissors (java)
 	elif option == 4:
+		# compile & run
 		os.system("javac rock_paper_scissors.java && javac rps_game.java")
 		os.system("java rps_game")
 
