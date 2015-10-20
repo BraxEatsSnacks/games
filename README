@@ -1,0 +1,46 @@
+# BraxEatsSnacks
+
+GAME COLLECTION
+
+# *************************************************************************** #
+
+main file COLLECTION.py will initialize game choices and present user with a menu to choose various games I personally created
+
+uncomment the calling of the main functions at the bottom of each "....game.[ext]" file if you want to just run that single function
+
+# *************************************************************************** #
+
+Battleship Game (battleship.py & battleship_game.py)
+
+-   Game function that generates random coordinates for the computer's coordinates and allows user to guess until he/she guesses correcty
+
+# *************************************************************************** #
+
+Bulls and Cows Game (bulls_and_cows.py & bc_game.py)
+
+-   Game function that generates a random 4-digit number, and asks the user to guess the number all while giving hints as counting the numbers that are correct in the sequence (bulls) as well as those that are correct but out of sequence (cows)
+
+-   Two separate files: one of which contains all of the subordinate functions that comprise the "meat and potatoes" of the game whilst the other executes the game function. Includes random module to select 4 digits from list of numbers while also making use of ".pop()" and ".append()" functions to remove numbers and add them to a list that defines the randomly generated number. Converts the list to string for use in greater game with the function "("".join(map(str, secret)))". The count_bulls and the count_cows functions simply detect and add to a counter as previously defined.
+
+-   Implementation of all prior knowledge and efficiency of utilizing functions in readability, functionality, and operating of code to create interactive game
+
+# *************************************************************************** #
+
+Hangman Game (hangman.py & hangman_game.py)
+
+-   Game function that uses a predetermined dictionary of words based on difficulty to allow user to play hangman
+
+# ****************************************************************************#
+
+Rock Paper Scissors Game (rock_paper_scissors.java & rps_game.java)
+
+-   Program that allows user to play "Rock, Paper, Scissors" against created   computerized player
+
+- METHODS DEFINED in rock_paper_scissors.java are imported into rps_game.java:
+    primary game_loop() that calls all other methods (that create the game)
+    display_menu() that shows user input options
+    computer_choice() that generates a pseudo-random computer choice
+    user_choice() that allows the user to input their choice
+    beat() that determines whether the user choice beat the computer choice
+
+# *************************************************************************** #
